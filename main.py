@@ -32,7 +32,7 @@ pewpews = pg.sprite.Group()
 
 # player is instantiated here
 player = Player()
-invader = Invader()
+invader = Mob()
 
 # testSprite = Sprite()
 # testSprite.image = pg.Surface((50,50))
@@ -40,6 +40,7 @@ invader = Invader()
 # testSprite.rect = testSprite.image.get_rect()
 # testSprite.rect.center = (WIDTH / 2, HEIGHT / 2)
 all_sprites.add(player)
+all_sprites.add(invader)
 # all_sprites.add(testSprite)
 
 # game loop
